@@ -13,5 +13,5 @@ const firebaseConfig = {
 const firebaseApp = initializeApp(firebaseConfig);
 //configura e conecta no firebase
 
-const storage = getStorage(firebaseApp);
+export const storage = getStorage(firebaseApp);
 // conecta no storage especificamente
